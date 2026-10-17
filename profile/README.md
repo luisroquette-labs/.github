@@ -1,9 +1,9 @@
 <details>
-<summary><img src="assets/quest-gate.svg" alt="Luis Roquette and Rocket Labs: open the fantasy gate to reveal a flaming sword." width="100%" /></summary>
+<summary><img src="assets/quest-gate.svg" alt="Luis Roquette and Rocket Labs. Alea Iacta Est: open the fantasy gate to reveal a flaming sword." width="100%" /></summary>
 <br />
 <img src="assets/quest-sword.svg" alt="A sword forged in fire. Forge it, test it, keep people in command." width="100%" />
 
-**Quest unlocked:** Build AI systems that solve real work, prove their behavior, and leave people in control.
+**Quest unlocked — Alea Iacta Est:** The die is cast. Build AI systems that solve real work, prove their behavior, and leave people in control.
 </details>
 
 <p align="center">
@@ -45,7 +45,7 @@ Pick the tool that matches your next problem. Each card opens its repository.
 - **Maintenance:** [Mac Storage Cleanup](https://github.com/luisroquette-labs/mac-storage-cleanup) and [NotchAgent Desk](https://github.com/luisroquette-labs/notchagent-desk).
 </details>
 
-## The trial
+## The trial: the die is cast
 
 <details>
 <summary><img src="assets/trial.svg" alt="The trial: AI that only looks ready. Open to read the rules." width="100%" /></summary>
