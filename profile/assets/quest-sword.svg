@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">A sword forged in fire</title><desc id="desc">A golden sword shines above three paths: build, verify, and keep humans in control.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#171327"/><stop offset="1" stop-color="#0b0e1b"/></linearGradient>
+    <linearGradient id="blade" x2="1" y2=".4"><stop stop-color="#fff7d7"/><stop offset=".5" stop-color="#f8bc5b"/><stop offset="1" stop-color="#9d5f34"/></linearGradient>
+    <radialGradient id="ember"><stop stop-color="#ffc66e" stop-opacity=".8"/><stop offset="1" stop-color="#f3553e" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="15"/></filter>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <circle cx="600" cy="137" r="142" fill="url(#ember)" filter="url(#blur)"><animate attributeName="opacity" values=".55;1;.55" dur="2.5s" repeatCount="indefinite"/></circle>
+  <g fill="#ffbb5f" opacity=".9">
+    <circle cx="534" cy="77" r="3"><animate attributeName="cy" values="92;40;92" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="664" cy="95" r="2"><animate attributeName="cy" values="120;46;120" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="629" cy="55" r="2"><animate attributeName="cy" values="85;24;85" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+  <path d="M552 188Q527 146 551 115Q548 151 570 144Q570 103 599 78Q585 121 607 132Q630 103 631 67Q669 116 640 167Q670 145 663 123Q686 177 645 206Z" fill="#ed623d" opacity=".7"/>
+  <path d="M576 185Q560 148 583 131Q579 158 598 159Q590 134 607 113Q606 150 624 157Q639 143 637 126Q653 163 632 188Z" fill="#ffd16d" opacity=".8"/>
+  <path d="M600 48 578 169 600 185 622 169Z" fill="url(#blade)" stroke="#ffe4a0" stroke-width="3"/>
+  <path d="M600 54V176" stroke="#fff8d8" stroke-width="3" opacity=".8"/>
+  <path d="M557 188Q600 174 643 188L634 202H566Z" fill="#d9a65e" stroke="#fff0b5" stroke-width="2"/>
+  <path d="M592 202H608L605 252H595Z" fill="#80563f" stroke="#e7c17f" stroke-width="3"/><circle cx="600" cy="260" r="10" fill="#e7c17f"/>
+  <text x="600" y="291" fill="#f3d8a2" text-anchor="middle" font-family="Georgia,serif" font-size="18" letter-spacing="2">FORGE IT. TEST IT. KEEP PEOPLE IN COMMAND.</text>
+  <path d="M20 20H1180V300H20Z" fill="none" stroke="#9d764f" stroke-width="2"/>
+</svg>
