@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Luis Roquette — The Quest for Useful AI</title>
+  <desc id="desc">An original fantasy gate, three flowing paths and a glowing sword. Click the image in the profile to reveal the sword.</desc>
+  <defs>
+    <linearGradient id="night" x2="0" y2="1"><stop stop-color="#10182d"/><stop offset="1" stop-color="#090b18"/></linearGradient>
+    <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#ffe9a1"/><stop offset="1" stop-color="#bf7c37"/></linearGradient>
+    <linearGradient id="path"><stop stop-color="#8ad7ff"/><stop offset=".52" stop-color="#a485ff"/><stop offset="1" stop-color="#ffc985"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+    <pattern id="stars" width="97" height="83" patternUnits="userSpaceOnUse"><circle cx="12" cy="21" r="1" fill="#b9c6ff" opacity=".5"/><circle cx="68" cy="57" r="1.5" fill="#ffe0a5" opacity=".45"/></pattern>
+  </defs>
+  <rect width="1200" height="430" rx="20" fill="url(#night)"/>
+  <rect width="1200" height="430" rx="20" fill="url(#stars)"/>
+  <path d="M0 330 105 245 165 293 252 190 364 303 449 220 540 330ZM1200 330 1095 245 1035 293 948 190 836 303 751 220 660 330Z" fill="#202944" opacity=".7"/>
+  <path d="M0 354Q300 305 600 355T1200 354V430H0Z" fill="#151c33"/>
+  <path d="M0 380Q300 325 600 380T1200 380V430H0Z" fill="#0c1224"/>
+  <circle cx="600" cy="184" r="134" fill="#7a55d2" opacity=".22" filter="url(#glow)"/>
+  <circle cx="600" cy="184" r="131" fill="none" stroke="#765887" stroke-width="2"/>
+  <circle cx="600" cy="184" r="119" fill="none" stroke="#d3a460" stroke-width="2" stroke-dasharray="2 13" opacity=".8"/>
+  <path d="M520 280V158Q520 87 600 81Q680 87 680 158V280" fill="#0c1224" stroke="url(#gold)" stroke-width="5"/>
+  <path d="M537 280V159Q537 102 600 98Q663 102 663 159V280" fill="#202743" stroke="#8669b2" stroke-width="2"/>
+  <path d="M600 108V274M548 166H652" stroke="#9c7cc3" opacity=".32"/>
+  <path d="M581 199 600 144 619 199 600 184Z" fill="url(#gold)"/>
+  <path d="M593 192H607V231H593Z" fill="#e1c184"/><path d="M575 213H625L618 224H582Z" fill="#e1c184"/><path d="M595 231H605V254H595Z" fill="#e1c184"/>
+  <path d="M71 347C255 315 361 374 539 341M71 366C255 334 361 393 539 360M661 341C839 374 945 315 1129 347M661 360C839 393 945 334 1129 366" fill="none" stroke="url(#path)" stroke-width="3" opacity=".7"/>
+  <g fill="url(#gold)" font-family="Georgia,serif" text-anchor="middle">
+    <text x="600" y="43" font-size="16" letter-spacing="6">ROCKET LABS  ·  APPLIED AI</text>
+    <text x="600" y="329" font-size="45" font-weight="bold">Luis Roquette</text>
+    <text x="600" y="382" font-size="18" letter-spacing="3">THE QUEST FOR USEFUL AI</text>
+  </g>
+  <g fill="#d7d9f2" font-family="Georgia,serif" font-size="19" text-anchor="middle">
+    <text x="206" y="116">Build</text><text x="206" y="143" font-size="14">AI agents &amp; products</text>
+    <text x="994" y="116">Prove</text><text x="994" y="143" font-size="14">Reliability &amp; oversight</text>
+    <text x="600" y="408" font-size="13" fill="#e6ba70">✦  OPEN THE GATE  ✦</text>
+  </g>
+  <rect x="2" y="2" width="1196" height="426" rx="18" fill="none" stroke="#a48352" stroke-width="3"/>
+</svg>
