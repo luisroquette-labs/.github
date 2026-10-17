@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-  <title id="title">Luis Roquette — The Quest for Useful AI</title>
-  <desc id="desc">An original fantasy gate, three flowing paths and a glowing sword. Click the image in the profile to reveal the sword.</desc>
+  <title id="title">Luis Roquette — Alea Iacta Est</title>
+  <desc id="desc">An original fantasy gate, three flowing paths and a glowing sword. Alea Iacta Est: the die is cast.</desc>
   <defs>
     <linearGradient id="night" x2="0" y2="1"><stop stop-color="#10182d"/><stop offset="1" stop-color="#090b18"/></linearGradient>
     <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#ffe9a1"/><stop offset="1" stop-color="#bf7c37"/></linearGradient>
@@ -25,7 +25,7 @@
   <g fill="url(#gold)" font-family="Georgia,serif" text-anchor="middle">
     <text x="600" y="43" font-size="16" letter-spacing="6">ROCKET LABS  ·  APPLIED AI</text>
     <text x="600" y="329" font-size="45" font-weight="bold">Luis Roquette</text>
-    <text x="600" y="382" font-size="18" letter-spacing="3">THE QUEST FOR USEFUL AI</text>
+    <text x="600" y="382" font-size="18" letter-spacing="4">ALEA IACTA EST</text>
   </g>
   <g fill="#d7d9f2" font-family="Georgia,serif" font-size="19" text-anchor="middle">
     <text x="206" y="116">Build</text><text x="206" y="143" font-size="14">AI agents &amp; products</text>
