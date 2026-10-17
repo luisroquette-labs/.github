@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="210" viewBox="0 0 600 210" role="img" aria-labelledby="t d">
+<title id="t">THE WATCHTOWER</title><desc id="d">Tools for focused work</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#131e34"/><stop offset="1" stop-color="#0d1020"/></linearGradient><radialGradient id="halo"><stop stop-color="#8de2ba" stop-opacity=".35"/><stop offset="1" stop-color="#8de2ba" stop-opacity="0"/></radialGradient></defs>
+<rect width="600" height="210" rx="14" fill="url(#bg)"/><circle cx="111" cy="113" r="94" fill="url(#halo)"/><rect x="2" y="2" width="596" height="206" rx="12" fill="none" stroke="#8de2ba" stroke-opacity=".7" stroke-width="2"/>
+<circle cx="109" cy="111" r="57" fill="#111a2c" stroke="#8de2ba" stroke-width="2"/><path d="M86 142V96l24-12 24 12v46z M98 143v-30h24v30" fill="none" stroke="#8de2ba" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="Georgia,serif"><text x="204" y="48" font-size="13" letter-spacing="4" fill="#8de2ba">PATH 04</text><text x="204" y="96" font-size="26" font-weight="bold" fill="#fff4dc">THE WATCHTOWER</text><text x="204" y="130" font-size="18" fill="#d9dff1">Tools for focused work</text><text x="204" y="173" font-size="15" fill="#8de2ba">NotchAgent · Resenha · Mac</text></g></svg>

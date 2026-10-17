@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="t d">
+  <title id="t">Open the vault</title><desc id="d">A locked archive of more open-source projects. Click to open.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#1f2540"/><stop offset="1" stop-color="#0b1022"/></linearGradient><linearGradient id="gold" x2="0" y2="1"><stop stop-color="#ffe9a8"/><stop offset="1" stop-color="#b9793d"/></linearGradient></defs>
+  <rect width="1200" height="150" rx="16" fill="url(#bg)"/><rect x="2" y="2" width="1196" height="146" rx="14" fill="none" stroke="#ae8a5a" stroke-width="3"/>
+  <path d="M69 56Q69 35 90 35H148Q169 35 169 56V74H69Z" fill="#74462e" stroke="#f2c47a" stroke-width="4"/><path d="M64 74H174V121H64Z" fill="#533326" stroke="#f2c47a" stroke-width="4"/><path d="M112 74h16v25h-16z" fill="url(#gold)"/>
+  <text x="218" y="71" fill="url(#gold)" font-family="Georgia,serif" font-size="39" font-weight="bold">Open the vault</text><text x="220" y="108" fill="#d6dcf2" font-family="Georgia,serif" font-size="20">More tools, field notes and experiments</text>
+  <text x="1150" y="83" fill="#f3c986" font-family="Georgia,serif" font-size="20" text-anchor="end">CLICK TO OPEN  ↓</text>
+</svg>
