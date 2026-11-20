@@ -15,4 +15,4 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
-      - run: bash scripts/preflight-ci.sh
+      - run: bash scripts/preflight.sh
