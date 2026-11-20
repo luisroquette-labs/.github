@@ -29,6 +29,9 @@ class CommentLinesTest(unittest.TestCase):
     def test_markdown_quoted_fence(self):
         self.assertEqual(comment_lines("> ```html\n> <!-- literal -->\n> ```", ".md"), [])
 
+    def test_html_attribute_literal(self):
+        self.assertEqual(comment_lines('See <span title="<!-- example -->">label</span>.', ".md"), [])
+
     def test_tracked_uppercase_extension(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "README.MD"
