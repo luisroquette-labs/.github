@@ -2,6 +2,7 @@ from pathlib import Path
 import subprocess
 import sys
 from xml.parsers import expat
+from markdown_it import MarkdownIt
 
 
 def comment_lines(source: str, suffix: str) -> list[int]:
@@ -13,35 +14,11 @@ def comment_lines(source: str, suffix: str) -> list[int]:
         return lines
 
     lines = []
-    fence = ""
-    for number, line in enumerate(source.splitlines(), 1):
-        stripped = line.lstrip(" ")
-        if len(line) - len(stripped) >= 4:
-            continue
-        marker = stripped[:1]
-        if marker in {"`", "~"}:
-            length = len(stripped) - len(stripped.lstrip(marker))
-            if length >= 3 and (not fence or marker == fence[0] and length >= len(fence)):
-                fence = "" if fence else marker * length
-                continue
-        if fence:
-            continue
-        code = 0
-        index = 0
-        while index < len(line):
-            if line[index] == "`":
-                end = index + len(line[index:]) - len(line[index:].lstrip("`"))
-                run = end - index
-                if code == 0:
-                    code = run
-                elif code == run:
-                    code = 0
-                index = end
-            elif code == 0 and line.startswith("<!--", index):
-                lines.append(number)
-                break
-            else:
-                index += 1
+    for token in MarkdownIt("commonmark", {"html": True}).parse(source):
+        if token.type == "html_block" and "<!--" in token.content:
+            lines.append(token.map[0] + 1)
+        elif token.type == "inline":
+            lines.extend(token.map[0] + 1 for child in token.children or [] if child.type == "html_inline" and "<!--" in child.content)
     return lines
 
 

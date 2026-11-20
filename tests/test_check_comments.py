@@ -20,6 +20,15 @@ class CommentLinesTest(unittest.TestCase):
     def test_markdown_code(self):
         self.assertEqual(comment_lines("`<!-- literal -->`\n```html\n<!-- literal -->\n```\n<!-- comment -->", ".MD"), [5])
 
+    def test_markdown_unmatched_backtick(self):
+        self.assertEqual(comment_lines("`unmatched <!-- real -->", ".md"), [1])
+
+    def test_markdown_multiline_inline_code(self):
+        self.assertEqual(comment_lines("`<!-- literal\ncontinued -->`", ".md"), [])
+
+    def test_markdown_quoted_fence(self):
+        self.assertEqual(comment_lines("> ```html\n> <!-- literal -->\n> ```", ".md"), [])
+
     def test_tracked_uppercase_extension(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "README.MD"
